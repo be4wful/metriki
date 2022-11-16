@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!--ex1 <div id="element">q</div> -->
+
+    <!--ex2 <div class="a" id="element">q</div> -->
+
+    <!--ex3 <div id="element"></div> -->
+
+    <!--ex4 <div id="element" class="www"></div> -->
+
+    <!--ex5 <div id="element" class="www asd">q</div> -->
+
+    <!--ex6 <div id="element" class="www asd qwe">q</div> -->
+
+    <!--css1 <div id="element">qwe asd</div> -->
+
+    <!--tag1 <div id="element"></div> -->
+
+    <!--tag2 <input type="submit" onclick="go()" id="element"> -->
+
+    <!--tag3 <div class="www">q</div>
+    <div class="www">w</div>
+    <div class="www">e</div> -->
+
+    <!--cr1 <ol id="element"></ol> -->
+
+    <!--cr2 <ul id="element"></ul> -->
+
+    <!--ins1 <div id="element">1</div> -->
+
+    <!--ins2 <div id="element">1</div> -->
+
+    <!--ins3 <div id="element">1</div> -->
+
+    <!--ins4 <div id="element">1</div> -->
+
+    <!--del1 <div id="parent">1
+        <div id="child">2</div>
+    </div>
+    <input type="submit" onclick="go()" id="element"> -->
+
+    <!--del2 <ol id="element">
+        <li id="q">2</li>
+        <li id="w">3</li>
+        <li id="e">4</li>
+    </ol>
+    <input type="submit" onclick="go()" id="elemento"> -->
+
+    <!--del3 <input type="submit" onclick="go()" id="elemento"> -->
+
+    <!--del4 <ol id="elment">
+        <li onclick="go(this)">2</li>
+        <li onclick="go(this)">3</li>
+        <li onclick="go(this)">4</li>
+    </ol> -->
+    
+    <!--del5 <input type='password' id="elemento">
+    <input type="submit" onclick="go()" id="elemento">-->
+
+    <!--ch1 <div id="elemento">
+        <div class="q">123</div>
+        <div class="w">123</div>
+    </div> -->
+
+    <!--ch2 <div id="elemento">
+        <div class="q">123</div>
+        <div class="w">123</div>
+    </div> -->
+
+    <!--ch3 <div id="elemento">
+        <li>qwe</li>
+        <li>qwe</li>
+    </div> -->
+
+    <!--sib1 <div id="elemento">
+        <li>qwe</li>
+        <li>qwe</li>
+        <li id="center">qwe</li>
+        <li>qwe</li>
+        <li>qwe</li>
+    </div> -->
+
+    <!--sib2 <div id="elemento">
+        <li>qwe</li>
+        <li>qwe</li>
+        <li id="center">qwe</li>
+        <li>qwe</li>
+        <li>qwe</li>
+    </div> -->
+
+    <!--sib3 <div id="elemento">
+        <li>qwe</li>
+        <li>qwe</li>
+        <li id="center">qwe</li>
+        <li>qwe</li>
+        <li>qwe</li>
+    </div> -->
+
+    <!--par1 <div>123
+        <div>123</div>
+        <div id="center">123</div>
+    </div> -->
+
+    <!--par2 <div class="par">123
+        <div>123
+            <div>123</div>
+            <div id="center">123</div>
+        </div>
+    </div> -->
+    <!-- На величину границы --> 
+ 
+ 
+    <!-- 1 --> 
+ 
+    <!-- <div id="div"> 
+        hey 
+    </div> 
+    <input type="submit" onclick="func()"> --> 
+ 
+ 
+    <!-- 2 --> 
+ 
+    <!-- <div id="div"> 
+        hey 
+    </div> 
+    <input type="submit" onclick="func()"> --> 
+ 
+
+    <!-- На полный размер элемента --> 
+ 
+    <!-- 1 --> 
+ 
+    <!-- <div id="div"> 
+        hey 
+    </div> 
+    <input type="submit" onclick="func()"> --> 
+ 
+ 
+    <!-- 2 --> 
+ 
+    <!-- <div id="div"> 
+        hey 
+    </div> 
+    <input type="submit" onclick="func()"> --> 
+ 
+ 
+    <!-- На размер элемента без границ, но с padding --> 
+ 
+    <!-- 1 --> 
+ 
+    <!-- <div id="div"> 
+        hey 
+    </div> 
+    <input type="submit" onclick="func()"> --> 
+ 
+ 
+    <!-- 2 --> 
+ 
+    <!-- <div id="div"> 
+        hey 
+    </div> 
+    <input type="submit" onclick="func()"> --> 
+ 
+ 
+    <!-- Работа с getComputedStyle --> 
+ 
+    <!-- 1 --> 
+ 
+    <!-- <div id="div"> 
+        hey 
+    </div> 
+    <input type="submit" onclick="func()"> --> 
+ 
+ 
+    <!-- Прокрутка элемента --> 
+ 
+    <!--1 --> 
+ 
+    <!-- <div id="elem"></div> 
+    <input type="submit" id="button" onclick="func()"> --> 
+ 
+ 
+    <!--2--> 
+ 
+    <!-- <div id="elem"></div> 
+    <input type="submit" id="button" onclick="func()"> --> 
+ 
+    <!--3--> 
+ 
+    <!-- <div id="elem"></div> 
+    <input type="submit" id="button" onclick="func()"> --> 
+ 
+    <!--4--> 
+ 
+    <!-- <div id="elem"> 
+    </div> 
+    <input type="submit" id="button" onclick="func()"> -->
+
+    <!--sc1 <div id="elem">12</div>
+    <input type="submit" onclick="go()" id="elemento"> -->
+
+    <!--sc2 <div id="elem">12</div>
+    <input type="submit" onclick="go()" id="elemento"> -->
+
+    <!--sc3 <div id="elem" style="overflow: scroll; width: 200px; height: 400px;">стная передача — самый древний способ передачи знаний в истории человечества. После изобретения древними цивилизациями систем записи люди начали использовать для письма почти всё, на чём можно писать — глиняные таблички, кору дерева, листы металла и т. п.
+        Таблички
+        Шумерская глиняная табличка с клинописью
+        Табличку можно определить как физически прочный, надёжный носитель письменной информации, относительно удобный в повседневном использовании и транспортировке. Пишущим средством в этом случае, как правило, выступало стило. Можно выделить два основных типа табличек: глиняные (например, у населения долины между Тигром и Евфратом), которые часто использовались для письма клинописью[4], и восковые. Последние представляли собой дощечки, покрытые слоем воска, в то время как глиняные полностью состояли из глины и после нанесения надписей часто обжигались для придания им дополнительной прочности. После этой процедуры, соответственно, изменить текст было уже невозможно; напротив, записи на восковых табличках можно было стереть и использовать носитель повторно. В Древнем Риме дощечки часто скрепляли друг с другом. Известно, что существовали «диптихи», «триптихи» и «полиптихи» (соответственно две, три и много дощечек)[5], образуя тем самым своеобразный прототип современной книги — кодекс[6].</div>
+    <input type="submit" onclick="go()" id="elemento"> -->
+
+    <!--sc4 <div id="elem" style="overflow: scroll; width: 200px; height: 400px;">стная передача — самый древний способ передачи знаний в истории человечества. После изобретения древними цивилизациями систем записи люди начали использовать для письма почти всё, на чём можно писать — глиняные таблички, кору дерева, листы металла и т. п.
+        Таблички
+        Шумерская глиняная табличка с клинописью
+        Табличку можно определить как физически прочный, надёжный носитель письменной информации, относительно удобный в повседневном использовании и транспортировке. Пишущим средством в этом случае, как правило, выступало стило. Можно выделить два основных типа табличек: глиняные (например, у населения долины между Тигром и Евфратом), которые часто использовались для письма клинописью[4], и восковые. Последние представляли собой дощечки, покрытые слоем воска, в то время как глиняные полностью состояли из глины и после нанесения надписей часто обжигались для придания им дополнительной прочности. После этой процедуры, соответственно, изменить текст было уже невозможно; напротив, записи на восковых табличках можно было стереть и использовать носитель повторно. В Древнем Риме дощечки часто скрепляли друг с другом. Известно, что существовали «диптихи», «триптихи» и «полиптихи» (соответственно две, три и много дощечек)[5], образуя тем самым своеобразный прототип современной книги — кодекс[6].</div>
+    <input type="submit" onclick="go()" id="elemento"> -->
+
+    <!--sc5 <div id="elem" style="overflow: scroll; width: 80px; height: 500px;">стная передача — самый древний способ передачи знаний в истории человечества. После изобретения древними цивилизациями систем записи люди начали использовать для письма почти всё, на чём можно писать — глиняные таблички, кору дерева, листы металла и т. п.
+    Известно, что существовали «диптихи», «триптихи» и «полиптихи» (соответственно две, три и много дощечек)[5], образуя тем самым своеобразный прототип современной книги — кодекс[6].</div>
+    <input type="submit" onclick="go()" id="elemento"> -->
+
+    <!--sc6 <div id="elem" style="overflow: scroll; width: 80px; height: 500px;">стная передача — самый древний способ передачи знаний в истории человечества. После изобретения древними цивилизациями систем записи люди начали использовать для письма почти всё, на чём можно писать — глиняные таблички, кору дерева, листы металла и т. п.
+        Известно, что существовали «диптихи», «триптихи» и «полиптихи» (соответственно две, три и много дощечек)[5], образуя тем самым своеобразный прототип современной книги — кодекс[6].</div>
+        <input type="submit" onclick="go()" id="elemento"> -->
+
+    <!--sc7 <div id="elem" style="overflow: scroll; width: 80px; height: 500px;">стная передача — самый древний способ передачи знаний в истории человечества. После изобретения древними цивилизациями систем записи люди начали использовать для письма почти всё, на чём можно писать — глиняные таблички, кору дерева, листы металла и т. п.
+        Известно, что существовали «диптихи», «триптихи» и «полиптихи» (соответственно две, три и много дощечек)[5], образуя тем самым своеобразный прототип современной книги — кодекс[6].</div>
+        <input type="submit" onclick="go()" id="elemento"> -->
+
+    <!--scr1 <div id="elem" style="width: 80px;">стная передача — самый древний способ передачи знаний в истории человечества. После изобретения древними цивилизациями систем записи люди начали использовать для письма почти всё, на чём можно писать — глиняные таблички, кору дерева, листы металла и т. п.
+        Известно, что существовали «диптихи», «триптихи» и «полиптихи» (соответственно две, три и много дощечек)[5], образуя тем самым своеобразный прототип современной книги — кодекс[6]wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwww.
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwww.</div>
+        <input type="submit" onclick="go()" id="elemento"> -->
+    
+    <!--scr2 <div id="elem">стная передача — самый древний способ передачи знаний в истории человечества. После изобретения древними цивилизациями систем записи люди начали использовать для письма почти всё, на чём можно писать — глиняные таблички, кору дерева, листы металла и т. п.
+        Известно, что существовали «диптихи», «триптихи» и «полиптихи» (соответственно две, три и много дощечек)[5], образуя тем самым своеобразный прототип современной книги — кодексwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwww.
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwww
+        wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww wwwwwwwwwwwwwwwwwwwwwwww.</div>
+        <input type="submit" onclick="go()" id="elemento"> -->
+    
+    <!--prok1 <div id="elem">стная передача — самый древний способ передачи знаний в истории человечества. После изобретения древними цивилизациями систем записи люди начали использовать для письма почти всё, на чём можно писать — глиняные таблички, кору дерева, листы металла и т. п.
+        Известно, что существовали «диптихи», «триптихи» и «полиптихи» (соответственно две, три и много дощечек)[5], образуя тем самым своеобразный прототип современной книги — кодексwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+        www
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwww.</div>
+        <input type="submit" onclick="go()" id="elemento"> -->
+    
+    <!--prok2 <div id="elem">стная передача — самый древний способ передачи знаний в истории человечества. После изобретения древними цивилизациями систем записи люди начали использовать для письма почти всё, на чём можно писать — глиняные таблички, кору дерева, листы металла и т. п.
+        Известно, что существовали «диптихи», «триптихи» и «полиптихи» (соответственно две, три и много дощечек)[5], образуя тем самым своеобразный прототип современной книги — кодексwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+        www
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwww.</div>
+        <input type="submit" onclick="go()" id="elemento">
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br> -->
+
+    <!-- practice2<div id="elem">стная передача — самый древний способ передачи знаний в истории человечества. После изобретения древними цивилизациями систем записи люди начали использовать для письма почти всё, на чём можно писать — глиняные таблички, кору дерева, листы металла и т. п.
+        Известно, что существовали «диптихи», «триптихи» и «полиптихи» (соответственно две, три и много дощечек)[5], образуя тем самым своеобразный прототип современной книги — кодексwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+        www
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwww.</div>
+        <input type="submit" onclick="go()" id="elemento">
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+    <script src="/main.js"></script> -->
+
+    <!-- practice3<div id="elem">стная передача — самый древний способ передачи знаний в истории человечества. После изобретения древними цивилизациями систем записи люди начали использовать для письма почти всё, на чём можно писать — глиняные таблички, кору дерева, листы металла и т. п.
+        Известно, что существовали «диптихи», «триптихи» и «полиптихи» (соответственно две, три и много дощечек)[5], образуя тем самым своеобразный прототип современной книги — кодексwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+        www
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwww.</div>
+        <input type="submit" onclick="go()" id="elemento">
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br> -->
+
+        <!-- practice3<div id="elem">стная передача — самый древний способ передачи знаний в истории человечества. После изобретения древними цивилизациями систем записи люди начали использовать для письма почти всё, на чём можно писать — глиняные таблички, кору дерева, листы металла и т. п.
+        Известно, что существовали «диптихи», «триптихи» и «полиптихи» (соответственно две, три и много дощечек)[5], образуя тем самым своеобразный прототип современной книги — кодексwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+        www
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwww.</div>
+        <input type="submit" onclick="go()" id="elemento">
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br>
+        wwwwwwwwwwwwwwwwwwwwwwwww <br> -->
+
+    <!--practice4 <div id="elem" style="width: 100px; height: 100px; background: black;"></div>
+    <input type="submit" onclick="go()" id="elemento"> -->
+    <script src="/main.js"></script>
+</body>
+</html>
